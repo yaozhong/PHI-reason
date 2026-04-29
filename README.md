@@ -1,6 +1,8 @@
-# PHIreason Pipeline
+# PHI-Reason-Species
 
-Code for **PHIreason**: an LLM-based phage–host interaction (PHI) prediction framework that integrates multi-channel genomic evidence (RBP annotations, BLASTN neighbours, BLASTP neighbours) into structured text profiles and queries a reasoning LLM to predict phage host range.
+![PHI-Reason-Species Poster](poster.png)
+
+Code for **PHI-Reason-Species**: an LLM-based phage–host interaction (PHI) prediction framework that integrates multi-channel genomic evidence (RBP annotations, BLASTN neighbours, BLASTP neighbours) into structured text profiles and queries a reasoning LLM to predict phage host range.
 
 ---
 
