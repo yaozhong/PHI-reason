@@ -2,7 +2,7 @@
 
 ![PHI-Reason-Species Poster](poster.png)
 
-Code for **PHI-Reason-Species**: an LLM-based phage–host interaction prediction framework that integrates multi-channel genomic evidence (RBP annotations, BLASTN neighbours, BLASTP neighbours) into structured text profiles and queries a reasoning LLM to predict phage host range at species level.
+Code for **PHI-Reason**: an LLM-based phage–host interaction prediction framework that integrates multi-channel genomic evidence (RBP annotations, BLASTN neighbours, BLASTP neighbours) into structured text profiles and queries a reasoning LLM to predict phage host range at species level.
 
 ---
 
@@ -90,7 +90,6 @@ Edit `config.sh` or set the environment variable before running any script:
 export PHI_PROJECT_ROOT=/path/to/your/project
 ```
 
-`PHI_PROJECT_ROOT` should be the directory containing `ws/`, `data/`, and `experiments/`.
 
 **2. (Optional) Override tool paths**
 
@@ -258,7 +257,7 @@ The `data/` directory contains phage–host pair tables and test-set identifiers
 | `cherry_phage_host_pair.csv` | 1,940 pairs | Cherry *et al.* (2021) phage–host pairs with `train`/`test` split column |
 | `cherry_test_634.txt` | 634 accessions | Test-set phage accessions for the RefSeq-634 benchmark |
 | `vhdb_phage_host_pair.csv` | 4,430 pairs | Edwards *et al.* Virus–Host DB pairs with `train`/`test` split column |
-| `hic_phage_host_pair.csv` | 395 pairs | Tobias *et al.* metaHiC proximity-ligation pairs (no split column; split by cross-validation) |
+| `hic_phage_host_pair.csv` | 395 pairs | metaHiC proximity-ligation pairs (no split column; split by cross-validation) |
 
 **Column format:** `phage_id, host_species[, split]`. Host species names use underscores (e.g. `Escherichia_coli`).
 
