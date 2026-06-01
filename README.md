@@ -1,4 +1,4 @@
-# PHI-Reason-Species
+# PHI-Reason
 
 ![PHI-Reason-Species Poster](poster.png)
 
