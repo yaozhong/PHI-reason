@@ -246,20 +246,6 @@ Results are written to `experiments/my_experiment/results/metrics.json`. Inferen
 | `--pilot` | — | Run on first N phages only (for testing) |
 | `--overwrite` | — | Re-run even if cached result exists |
 
----
-
-## Benchmark datasets
-
-The `data/` directory contains phage–host pair tables and test-set identifiers for all benchmarks used in the paper.
-
-| File | Records | Description |
-|------|---------|-------------|
-| `cherry_phage_host_pair.csv` | 1,940 pairs | Cherry *et al.* (2021) phage–host pairs with `train`/`test` split column |
-| `cherry_test_634.txt` | 634 accessions | Test-set phage accessions for the RefSeq-634 benchmark |
-| `vhdb_phage_host_pair.csv` | 4,430 pairs | Edwards *et al.* Virus–Host DB pairs with `train`/`test` split column |
-| `hic_phage_host_pair.csv` | 395 pairs | metaHiC proximity-ligation pairs (no split column; split by cross-validation) |
-
-**Column format:** `phage_id, host_species[, split]`. Host species names use underscores (e.g. `Escherichia_coli`).
 
 ---
 
